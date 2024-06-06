@@ -17,7 +17,7 @@ display:flex
 
 
 .base1 {
-    background-color: rgb(129, 159, 215);
+    background-color: rgb(179, 195, 223);
     border: auto solid rgb(101, 101, 230);
     flex-direction: column;
     padding: 20px;
@@ -26,6 +26,15 @@ display:flex
     width: 250px;
     height: 660px;
     text-align: start;
+
+}
+
+
+
+#titulo-nombre {
+    color: rgb(41, 41, 132);
+    font-size: 50px;
+
 }
 
 #titlulo-aptitud {
@@ -33,7 +42,26 @@ display:flex
     text-align: center;
     
 }
+#titulos {
+text-align: start;
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 0;
+color: rgb(71, 71, 142);
 
+
+
+
+}
+
+#parrafos {
+ 
+    text-align: start;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
 
 .base2{
 background-color: bisque;
